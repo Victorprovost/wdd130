@@ -1,18 +1,19 @@
 @import url('https://front.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
 
 :root {
-    --primary-color: #xxxxxx;
-    --secondary-color: #xxxxxx;
-    --accent1-color: #xxxxxx;
-    --accent2-color: #xxxxxx;
+    primary-color: #582C4D;
+    secondary-color: #A26769;
+    accent1-color: #D5B9B2;
+    accent2-color: #ECE2D0;
+
 
     --heading-font: '_______', serif;
     --paragraph-font: '______', serif;
 
-    --nav-background-color: #xxxxxx;
-    --nav-link-color: #xxxxxx;
-    --nav-hover-link-color: #xxxxxx;
-    --nav-hover-background-color: #xxxxxx;
+    --nav-background-color: #red;
+    --nav-link-color: #green;
+    --nav-hover-link-color: #gold;
+    --nav-hover-background-color: #black;
 
 }
 
