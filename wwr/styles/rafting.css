@@ -60,3 +60,96 @@
             text-decoration: none;
         }
 
+        
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header img {
+    max-width: 100%;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+
+.about article {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+
+.about h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.about p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+
+
+.adventures .adventures-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+
+.adventures figure {
+    text-align: center;
+}
+
+
+.adventures img {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.adventures figcaption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #777;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+
+.social a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+
+.social img {
+    max-width: 30px;
+    height: auto;
+}
+
